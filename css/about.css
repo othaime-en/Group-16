@@ -1,0 +1,158 @@
+.prolog {
+  width: 99%;
+  position: relative;
+  padding-top: 3rem;
+}
+
+.prolog div {
+  /* float: left; */
+  display: inline-block;
+  width: 50%;
+  /* border: solid 1px black; */
+}
+
+.prolog .image-1 {
+  height: 26rem;
+  width: 700px;
+  margin-left: 3rem;
+}
+
+.prolog .image-2 {
+  /* float: left; */
+  position: absolute;
+  width: 25%;
+  height: 16rem;
+  /* display: none; */
+  margin-right: 4rem;
+  top: 7rem;
+  right: 27%;
+}
+
+.prolog .prologtext {
+  position: absolute;
+  width: 25%;
+  right: 5%;
+  height: 26rem;
+}
+
+.prolog .prologtext h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.wrapper {
+  margin-top: 5rem;
+  width: 100%;
+  margin-right: 10%;
+  /* border: solid 1px black; */
+  position: relative;
+  height: 53rem;
+}
+
+.wrapper table {
+  display: inline-block;
+  margin-left: 10%;
+  width: 90%;
+  position: absolute;
+  top: 2rem;
+  height: 20rem;
+}
+
+.wrapper table th,
+.wrapper table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 3rem;
+  padding: 15px;
+  text-align: left;
+}
+
+
+.contact-form {
+  max-width: 550px;
+  /* margin: 0 auto; */
+  background: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+  margin-right: 10%;
+  margin-top: 2rem;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-field,
+.message-field {
+  width: 48%;
+}
+
+.input-field .input,
+.message-field textarea {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #c5ecfd;
+  padding: 10px;
+  color: #c5ecfd;
+  width: 100%;
+}
+
+.message-field textarea {
+  height: 212px;
+}
+
+::-webkit-input-placeholder {
+  color: #c5ecfd;
+}
+
+::-moz-input-placeholder {
+  color: #c5ecfd;
+}
+
+.btn {
+  background: #39b7dd;
+  text-align: center;
+  border-radius: 5px;
+  padding: 15px;
+
+}
+
+.testimonials {
+  width: 95%;
+  padding-top: 3rem;
+}
+
+.testimonial-content {
+  display: inline-block;
+  width: 40%;
+  /* border: solid 1px black; */
+  text-align: center;
+  margin-right: 7rem;
+
+}
+
+.testimonial-content div {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.mission,
+.vission {
+  position: absolute;
+  width: 40%;
+  right: 10%;
+  top: 2rem;
+  text-align: center;
+}
+
+.vission {
+  top: 13rem;
+}
