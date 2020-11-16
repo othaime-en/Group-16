@@ -5,17 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>sandBox</title>
-  <link rel="stylesheet" href="../css/main.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
   <header class=" primary-header">
-    <a href="./home.html" class="logo-a">
+    <a href="./group16.html" class="logo-a">
       <h1 class="logo"><b>ExploreWild<sub id="blue">(EA)</sub></b></h1>
     </a>
     <!-- <h1>BOT</h1> -->
     <nav class="nav nav-header">
-      <a href="./home.html">Home</a>
+      <a href="./group16.html">Home</a>
       <a href="./reservation.html">Reservation</a>
       <a href="./wildlife.html">wild Life</a>
       <a href="./sceneries.html">Sceneries</a>
@@ -31,7 +33,7 @@
         <h3>A life time experience<br> ...</h3>
       </div>
       <div class="geometric-btn">
-        <img src="../images/ea2.png" alt="" width="100%" height="100%">
+        <img src="./images/ea2.png" alt="" width="100%" height="100%">
         <!-- <a><button class="btn btn-hero">login</i></button></a>
         <br>
         <a href="">Dont have an account ? <span>Sign Up</span></a> -->
@@ -51,19 +53,19 @@
   <div class="explore">i
     <div>
       <a href="./wildlife.html" onclick="storeId('mt-kenya-1')"><img
-          src="../images/giraffmtkenya.jpeg" alt="" width="100%" height="100%">
+          src="./images/giraffmtkenya.jpeg" alt="" width="100%" height="100%">
         <h4>Mt Kenya National Park</h4>
       </a>
     </div>
     <div>
       <a href="./wildlife.html" onclick="storeId('tsavo-1')"><img
-          src="../images/swara.jpeg" alt="" width="100%" height="100%">
+          src="./images/swara.jpeg" alt="" width="100%" height="100%">
         <h4>Tsavo National Park (kenya)</h4>
       </a>
     </div>
     <div>
       <a href="./sceneries.html" onclick="storeId('victoria-falls-1')"> <img
-          src="../images/victoria.webp" alt="" width="100%" height="100%">
+          src="./images/victoria.webp" alt="" width="100%" height="100%">
         <h4>Victoriafalls (Uganda)</h4>
       </a>
     </div>
@@ -87,7 +89,13 @@
     <section class="foot"><small>&copy; copyright group16 2020</small></section>
   </footer>
 
-  <script src="../js/home.js"></script>
+  <script>
+    // store id 
+     function storeId(id) {
+          localStorage.id = id;
+       }
+  </script>
+ 
 </body>
 
 </html>

@@ -1,4 +1,77 @@
-let tt = 0;
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sandBox</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/reservations.css">
+</head>
+
+<body>
+  <header class=" primary-header">
+    <a href="./group16.html" class="logo-a">
+      <h1 class="logo"><b>ExploreWild<sub id="blue">(EA)</sub></b></h1>
+    </a>
+    <nav class="nav nav-header">
+      <a href="./group16.html">Home</a>
+      <a href="./reservation.html">Reservation</a>
+      <a href="./wildlife.html">wild Life</a>
+      <a href="./sceneries.html">Sceneries</a>
+      <a href="./about.html">About</a>
+    </nav>
+  </header>
+
+  <h2 id="my-r-h">My Reservations</h2>
+  <div class="myreservations group">
+
+  </div>
+
+  <h2 id="google-m-h">Google Maps</h2>
+  <div class="google-maps">
+    <img src="./images/hellsgate-oljogi.png" alt="" width="100%" height="100%">
+  </div>
+
+  <div class="payment group">
+    <div class="total-payment">
+      <h3>Total price for the trip :</h3>
+      <h3 class="TOTAL"></h3>
+    </div>
+    <div class="payment-details">
+      <div>
+        <img src="./images/mpesa.png" alt="" width="100%" height="100%">
+      </div>
+      <div class="paypal">
+        <img src="./images/paypal.png" alt="" width="100%" height="100%">
+      </div>
+      <div>
+        <img src="./images/visa.png" alt="" width="100%" height="100%">
+      </div>
+    </div>
+  </div>
+
+  <footer class="primary-footer">
+    <table style="width:100%">
+      <tr>
+        <td>Email</td>
+        <td>Tel</td>
+        <td>Twitter</td>
+        <td>FB</td>
+      </tr>
+      <tr>
+        <td>explorewild@wild.com</td>
+        <td>+254722000001</td>
+        <td>@explorewildkenya</td>
+        <td>@explorewildkenya</td>
+      </tr>
+    </table>
+    <section class="foot"><small>&copy; copyright group16 2020</small></section>
+  </footer>
+
+
+  <script>
+    let tt = 0;
 window.addEventListener('load', updateDOM());
 
 // render made reservation 
@@ -80,3 +153,9 @@ function updateDOM() {
   }
 
 }
+
+  </script>
+  <!-- <script src="./js/reserve.js"></script> -->
+</body>
+
+</html>
